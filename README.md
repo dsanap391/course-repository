@@ -16,7 +16,7 @@ Fields:
 - course (Course)
 
 2. Entity Relationship (Mapping)
-  Entity	    Relation Type	      Target      Entity	Description
+
   Course	    OneToMany	          Student	    One course can have many students
   Student	    ManyToOne	          Course	    Many students belong to one course
 
