@@ -17,8 +17,8 @@ Fields:
 
 2. Entity Relationship (Mapping)
 
-  Course	    OneToMany	          Student	    One course can have many students
-  Student	    ManyToOne	          Course	    Many students belong to one course
+  I. Course --> One course can have many students
+  II. Student ---> Many students belong to one course
 
 4. API Endpoints
 Course APIs
